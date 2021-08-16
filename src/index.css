@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:'Roboto', sans-serif;
+}
+body{
+  background-color: #f2f2f2;
+}
+
+.header{
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 10px;
+  height: 85px;
+
+}
+.header-title
+{
+  color: #7063FF;
+  padding: 1px 0px 5px 25px;
+  
+}
+.form-container
+{
+  width: 1200px;
+  height: 500px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #ffffff;
+}
+.stepper
+{
+  margin: auto;
+}
+.onestep
+{
+  margin: auto;
+  display: flex;
+}
+.onestep .label-1
+{
+  margin: 20px;
+}
+.onestep .label-2
+{
+  margin: 20px;
+  align-items: center;
+}
+.onestep .label-3
+{
+  margin: 20px;
+}
+.nxt-btn button
+{
+  width: 150px;
+  padding: 10px;
+}
