@@ -16,23 +16,33 @@ body{
 
 .header{
   background-color: #ffffff;
-  margin: 10px;
+  margin: 0px;
   border-radius: 10px;
-  height: 85px;
+  height: 45px;
 
 }
 .header-title
 {
   color: #7063FF;
-  padding: 1px 0px 5px 25px;
+  padding: 0px 0px 5px 20px;
+  margin: 0px;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 800;
   
 }
 .form-container
 {
-  width: 1200px;
-  height: 500px;
+  width: 1000px;
+  height: 410px;
   border-radius: 10px;
-  margin: auto;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius:20px ;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 70px!important;
+  
+  
   background-color: #ffffff;
 }
 .stepper
@@ -46,19 +56,340 @@ body{
 }
 .onestep .label-1
 {
-  margin: 20px;
+  margin: 0px;
 }
 .onestep .label-2
 {
-  margin: 20px;
+  margin: 0px;
   align-items: center;
 }
 .onestep .label-3
 {
-  margin: 20px;
+  margin: 0px;
 }
 .nxt-btn button
 {
   width: 150px;
   padding: 10px;
+}
+.onestep{
+  width: 1000px;
+  height: 300px;
+  padding-top: 100px;
+}
+.onestep button
+{
+  margin-top: 200px;
+
+}
+.App-header
+{
+  margin-bottom: 80px;
+}
+.content-grey
+{
+  width: auto;
+  height: 85px;
+  background-color: #edecff;
+  display: block;
+  text-align: center;
+  color: #434343;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding: 0px 20px 0px 20px;
+}
+.content
+{
+  padding: 15px;
+}
+.confirmation
+{
+  width: auto;
+  border-top : 1px solid #d1d1d1;
+  margin: auto;
+  display: flex;
+}
+.conf-1
+{
+  width: auto;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  border-top: 1px solid #D1D1D1;
+  display: flex;
+}
+
+.conf-text
+{
+  margin-top: 40px;
+  
+}
+
+.conf-2
+{
+  width: auto;
+  display: flex;
+}
+.conf-dcl button
+{
+  margin-top: 70px;
+  background-color: #7063FF;
+  border-radius: 22px;
+  color: #ffffff;
+  margin: 20px;
+  width: 100px;
+  height: 39px;
+  font-size: 12px;
+}
+.conf-dcl button:hover
+{
+  margin-top: 70px;
+  background-color: #ffffff;
+  border-radius: 22px;
+  color: #7063FF;
+  border: 1px solid #7063FF;
+  margin: 20px;
+  width: 100px;
+  height: 39px;
+  font-size: 12px;
+}
+.conf-nxt button
+{
+  margin-top: 70px;
+  background-color:#ffffff ;
+  border-radius: 22px;
+  color: #7063FF;
+  border: 1px solid #7063FF ;
+  margin: 20px;
+  width: 100px;
+  height: 39px;
+  font-size: 12px;
+
+}
+.conf-nxt button:hover
+{
+  margin-top: 70px;
+  background-color:#7063FF ;
+  border-radius: 22px;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF ;
+  margin: 20px;
+  width: 100px;
+  height: 39px;
+  font-size: 12px;
+
+}
+.conf-choose button
+{
+  margin-top: 70px;
+  background-color:#ffffff ;
+  border-radius: 22px;
+  color: #7063FF;
+  border: 1px solid #7063FF ;
+  margin: 20px;
+  width: 100px;
+  height: 39px;
+  font-size: 12px;
+
+}
+.conf-choose button:hover
+{
+  margin-top: 70px;
+  background-color:#7063FF ;
+  border-radius: 22px;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF ;
+  margin: 20px;
+  width: 100px;
+  height: 39px;
+  font-size: 12px;
+
+}
+.radio-group
+{
+  
+  display: flex;
+}
+.span
+{
+  font-size: 17px;
+  margin-top: 20px;
+}
+.form-lable
+{
+  display: flex;
+}
+
+
+.radio-row
+{
+  display: flex;
+  width: 900px;
+  text-align: right;
+}
+.col-md-4.r1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.col-md-4.r2 {
+  margin: 30px;
+  text-align: center!important;
+}
+.col-md-4.r3 {
+  margin: 30px;
+}
+.col-md-4.r5 {
+  margin: 30px 4px 0px 0px;
+}
+.col-md-4.r6 {
+  margin: 10px 0px 0px 10px;
+}
+.row-num {
+
+display: flex;
+}
+.StepOne-Container
+{
+  width: 1127px;
+  height: 410px;
+  background: #FFFFFF;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius:20px ;
+  margin-bottom: 70px;
+}
+.stepOne
+{
+  margin: auto!important;
+  display: flex;
+}
+.stepOne .label-1
+{
+  margin: 40px;
+  text-align: left;
+  
+}
+.tenancy-head
+{
+ font-size: 24px;
+  text-align: center;
+}
+.tenancy-head p
+{
+  font-size: 15px;
+}
+.conf-btn
+{
+  display: flex;
+  margin-left: 330px;
+  margin-top: 20px;
+}
+.qstn
+{
+  display: flex;
+  border-bottom: 1px solid #f1e7e7;
+ width: auto;
+ margin-left: 50px;
+ align-items: center;
+}
+.qstn1{
+  display: flex;
+ 
+ width: auto;
+ margin-left: 50px;
+ align-items: center;
+}
+.stepTwo-Container
+{
+  width: 1127px;
+  height: 410px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+.radio-btn
+{
+  display: flex;
+  
+}
+.body-padding
+{
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.radio-btn1
+{
+  display: flex;
+left: 50rem;
+  position: absolute;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.col-md-4.nxt-right .dcl-right {
+  margin: 10px;
+}
+.info-head
+{
+  font-weight: 500;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.step-head
+{
+  font-size: 16px;
+  margin: 10px 5px 5px -5px;
+
+}
+.ratings input[type="radio"]
+{
+  display: none;
+}
+.star
+{
+  cursor: pointer;
+  transition: color 200ms;
+}
+.stars
+{
+  padding:10px;
+}
+.star-spacing
+{
+  padding: 25px 0px 0px 14px;
+}
+.radio-years
+{
+  display: block;
+  padding: 5px 5px 0px 0px;
+}
+.conf-dcl button
+{
+  text-transform: lowercase;
+  font-size: 12px;
+  font-family: inherit;
+}
+.textfield input
+{
+border-top: #d1d1d1;
+border-bottom: #d1d1d1;
+border-right: #d1d1d1;
+border-left: #d1d1d1;
+}
+.stepOne-pr
+{
+  display: inline-block;
+}
+.pr-row-1 
+{
+  display: inline-block;
+  text-align: left;
+  margin-right: 150px;
+
+}
+.pr-row-2
+{
+  display: inline-block;
+  text-align: left;
+  margin-left: 150px;
 }

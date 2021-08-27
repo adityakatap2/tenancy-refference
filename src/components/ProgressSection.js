@@ -1,6 +1,6 @@
-import FirstStep from './FirstStep';
-import SecondStep from './SecondStep';
-import ThirdStep from './ThirdStep';
+import TenReff1 from './TenancyReference/TenReff1';
+import TenReff2 from './TenancyReference/TenReff2';
+import TenReff3 from './TenancyReference/TenReff3';
 import { Stepper , StepLabel , Step} from  '@material-ui/core'
 
 
@@ -11,11 +11,11 @@ const ProgressSection = () => {
 {
     switch(step){
         case 1 : 
-        return <FirstStep />
+        return <TenReff1 />
         case 2 :
-            return <SecondStep />
+            return <TenReff2 />
             case 3:
-                return <ThirdStep />
+                return <TenReff3 />
     }
 }
 

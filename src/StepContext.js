@@ -11,6 +11,9 @@ const StepContext = () => {
 
     function submitData ()
     {
+        setFinalData(finalData =>[ ...finalData , userData]);
+        setUserData('');
+        setStep(1);
 
     }
     return (
